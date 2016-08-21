@@ -1,6 +1,10 @@
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
+/*original colors*/
+/*icons 00ffcc
+#two bg 21b2a6*/
+
 /*
 	Spectral by HTML5 UP
 	html5up.net | @ajlkn
@@ -1700,7 +1704,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #8b5f5f;
 		}
 
 	.select-wrapper {
@@ -1811,7 +1815,7 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #8b5f5f;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -1922,7 +1926,7 @@
 			}
 
 		.icon.style1 {
-			color: #00ffcc;
+			color: #8b5f5f;
 		}
 
 		.icon.style2 {
@@ -2428,7 +2432,7 @@
 
 			.features li:before {
 				display: block;
-				color: #00ffcc;
+				color: #31383e;
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;
@@ -2641,7 +2645,7 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			background-color: #8b5f5f;
 			color: #c7ebe8;
 		}
 
@@ -2799,7 +2803,7 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: #878367;
 			color: #d3d4e4;
 		}
 
@@ -2864,7 +2868,7 @@
 			.wrapper.style3 input[type="checkbox"]:checked + label:before,
 			.wrapper.style3 input[type="radio"]:checked + label:before {
 				background: #ffffff;
-				color: #505393;
+				color: #878367;
 			}
 
 			.wrapper.style3 ::-webkit-input-placeholder {
@@ -3160,7 +3164,7 @@
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: #8b5f5f;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
