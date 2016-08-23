@@ -1926,15 +1926,15 @@
 			}
 
 		.icon.style1 {
-			color: #8b5f5f;
+			color: #444e57;
 		}
 
 		.icon.style2 {
-			color: #00f0ff;
+			color: #444e57;
 		}
 
 		.icon.style3 {
-			color: #76ddff;
+			color: #444e57;
 		}
 
 /* Image */
@@ -2432,7 +2432,7 @@
 
 			.features li:before {
 				display: block;
-				color: #31383e;
+				color: #444e57;
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;
@@ -2481,6 +2481,114 @@
 				}
 
 					.features li:first-child {
+						border-top: 0;
+					}
+
+			}
+
+/* products */
+
+	.products {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		list-style: none;
+		padding: 0;
+		width: 100%;
+
+
+	}
+		
+		.products h3{
+			text-align: center !important;
+		}
+		.products li {
+			padding: 1em 2em 1em 2em ;
+			display: block;
+			position: relative;
+			text-align: left;
+			width: 50%;
+			border: 5 5 5 5
+		}
+
+			.products li:nth-child(1) {
+				background-color: rgba(0, 0, 0, 0.35);
+			}
+
+			.products li:nth-child(2) {
+				background-color: rgba(0, 0, 0, 0.39);
+			}
+
+			.products li:nth-child(3) {
+				background-color: rgba(0, 0, 0, 0.105);
+			}
+
+			.products li:nth-child(4) {
+				background-color: rgba(0, 0, 0, 0.14);
+			}
+
+			
+
+			.products li:before {
+				display: block;
+				color: #31383e;
+				position: absolute;
+				left: 1.75em;
+				top: 2.75em;
+				font-size: 1.5em;
+			}
+
+			.products li:nth-child(1) {
+				border-top-left-radius: 3px;
+			}
+
+			.products li:nth-child(2) {
+				border-top-right-radius: 3px;
+			}
+
+			.products li:nth-last-child(1) {
+				border-bottom-right-radius: 3px;
+			}
+
+			.products li:nth-last-child(2) {
+				border-bottom-left-radius: 3px;
+			}
+
+			@media screen and (max-width: 980px) {
+
+				.products li {
+					padding: 1em 1em 1em 1em ;
+					text-align: center;
+				}
+
+					.products li:before {
+						left: 0;
+						margin: 0 0 1em 0;
+						position: relative;
+						top: 0;
+					}
+
+			}
+
+			@media screen and (max-width: 736px) {
+
+				.products li {
+					padding: 1em 0 1em 0 ;
+					background-color: transparent !important;
+					border-top: solid 2px #fff;
+					width: 100%;
+				}
+
+					.products li:first-child {
 						border-top: 0;
 					}
 
@@ -3821,5 +3929,5 @@
 	background-color: #1d242a;
 }
 #categories{
-	color: #5D5959;
+	color: #838A93;
 }
